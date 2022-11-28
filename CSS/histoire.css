@@ -1,0 +1,160 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../IMG/BACKGROUND/Page2/Page-2-Histoire-fond.png);
+	width: 80vw;
+	height: 277vh;
+	background-repeat: no-repeat;
+
+}
+.histoire {
+	width: 1475px;
+	height: auto;
+	padding-left: 424px;
+	z-index: 1;
+}
+.gifflammes {
+	position: absolute;
+	width: 1425px;
+	height: 572px;
+	left: 424px;
+	z-index: -1;
+}
+.img {
+	width: 600px;
+	height: auto;
+	grid-column-start: 1;
+	grid-row-start: 1;
+}
+.grostxt {
+	grid-column-start: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	color: white;
+	font-size: 35px;
+	width: 130%;
+	height: 80%;
+	padding-left: 42px;
+	margin-top: -5px;
+	line-height: 35px;
+}
+.grille1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 50px;
+	grid-gap: 20px;
+	padding-left: 470px;
+	padding-top: 220px;
+	width: 75%;
+}
+.supplément {
+	grid-column-start: 2;
+	grid-row-start: 2;
+	color: white;
+	font-size: 35px;
+	width: 130%;
+	height: 80%;
+	margin-top: -5px;
+	line-height: 35px;
+	text-align: center;
+}
+.legende {
+	font-size: 28px;
+	color: white;
+	grid-column-start: 1;
+	grid-row-start: 2;
+	margin-top: -10px;
+}
+.textecentral {
+	color: white;
+	font-size: 35px;
+	line-height: 35px;
+	margin-left:570px;
+	margin-top: 155px;
+	width: 80%;
+}
+.bandeaux {
+	display: flex;
+	flex-direction: column;
+	margin-top: -1700px;
+	margin-left: 700px;
+}
+.bandeaux{
+	display: flex;
+	flex-direction: column;
+	margin-top: -1715px;
+	margin-left: 110px;
+}
+.b1 {
+	width: 190px;
+	height: auto;
+	transform: rotate(-15deg);
+	margin-bottom: 90px;
+}
+.b2 {
+	width: 190px;
+	height: auto;
+	transform: rotate(10deg);
+	margin-bottom: 90px;
+}
+.b3 {
+	width: 190px;
+	height: auto;
+	transform: rotate(-7deg);
+	margin-bottom: 90px;
+}
+.b4 {
+	width: 190px;
+	height: auto;
+	margin-bottom: 90px;
+}
+.b5 {
+	width: 190px;
+	height: auto;
+	margin-bottom: 90px;
+}
+
+.b1:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -5px;
+	transform: rotate(-10deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}
+.b2:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -12px;
+	transform: rotate(5deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}
+.b3:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -10px;
+	transform: rotate(-2deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}
+.b4:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -10px;
+	transform: rotate(-5deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}
+.b5:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -10px;
+	transform: rotate(-5deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}

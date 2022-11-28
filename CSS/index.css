@@ -1,0 +1,174 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../IMG/BACKGROUND/Page1/fond-1.png);
+	width: 80vw;
+	height: 270vh;
+	background-repeat: no-repeat;
+}
+.titre {
+	width: 1495px;
+	height: auto;
+	padding-left: 400px;
+	z-index: 1;
+}
+.gifflammes {
+	position: absolute;
+	width: 1425px;
+	height: 565px;
+	left: 424px;
+	z-index: -1;
+}
+.metalreligion {
+	padding-left: 475px;
+	width: 1400px;
+	height: auto;
+}
+.img1 {
+	width: 130px;
+	height: auto;
+	position: absolute;
+	top: 1230px;
+	left: 1280px;
+}
+.img2 {
+	width: 300px;
+	height: auto;
+	position: absolute;
+	top: 1330px;
+	left: 1160px;
+}
+.img3 {
+	width: 100px;
+	height: auto;
+	position: absolute;
+	top: 1420px;
+	left: 900px;
+}
+.textecentral {
+	padding-left: 500px;
+	padding-top: 180px;
+	width: 85%;
+}
+.texte1 {
+	color: white;
+	font-size: 45px;
+	padding-top: 20px;
+	padding-left: 230px;
+}
+.texte2 {
+	color: white;
+	font-size: 45px;
+	padding-left: 230px;
+	margin-top: -10px;
+}
+.texte3 {
+	color: white;
+	font-size: 45px;
+	padding-left: 950px;
+	margin-top: -100px;
+}
+.texte4 {
+	color: white;
+	font-size: 45px;
+	padding-left: 230px;
+	margin-top: -30px;
+}
+.texte5 {
+	color: white;
+	font-size: 45px;
+	padding-left: 520px;
+	margin-top: -100px;
+}
+.texte6 {
+	text-align: center;
+	color: white;
+	font-size: 45px;
+}
+.iframe1 {
+	padding-left: 450px;
+}
+.iframe2 {
+	position: absolute;
+	top: 1664px;
+	left: 1300px;
+}
+.bandeaux{
+	display: flex;
+	flex-direction: column;
+	margin-top: -1515px;
+	margin-left: 110px;
+}
+.b1 {
+	width: 190px;
+	height: auto;
+	transform: rotate(-15deg);
+	margin-bottom: 90px;
+}
+.b2 {
+	width: 190px;
+	height: auto;
+	transform: rotate(10deg);
+	margin-bottom: 90px;
+}
+.b3 {
+	width: 190px;
+	height: auto;
+	transform: rotate(-7deg);
+	margin-bottom: 90px;
+}
+.b4 {
+	width: 190px;
+	height: auto;
+	margin-bottom: 90px;
+}
+.b5 {
+	width: 190px;
+	height: auto;
+	margin-bottom: 90px;
+}
+
+.b1:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -5px;
+	transform: rotate(-10deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}
+.b2:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -12px;
+	transform: rotate(5deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}
+.b3:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -10px;
+	transform: rotate(-2deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}
+.b4:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -10px;
+	transform: rotate(-5deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}
+.b5:hover {
+	width: 205px;
+	height: auto;
+	margin-left: -10px;
+	transform: rotate(-5deg);
+	filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+	margin-bottom: 90px;
+}
